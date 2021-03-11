@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+import NextLink from 'next/link'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -11,55 +11,55 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Tiarnan Swayne
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          📍Aarhus, Denmark
         </p>
-
+        <p className={styles.description}>
+          ⚡️ I like GraphQL, React, TypeScript and SQL-databases
+        </p> 
+        <p className={styles.description}>
+         🏀 I love basketball too
+        </p> 
+        <p className={styles.description}>
+         📧 Contact: by <span>swaynedev@gmail.com</span> or <a href = "https://twitter.com/lastnameswayne"><span>@lastnameswayne</span></a>
+        </p> 
+         
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://github.com/lastnameswayne/leetbattle" className={styles.card}>
+            <h3>LeetBattle &rarr;</h3>
+            <p>A platform for challenging your friends in competitive programming problems.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://github.com/lastnameswayne/songlink" className={styles.card}>
+            <h3>SongLink &rarr;</h3>
+            <p>A tool for music artists to create beautiful landing pages for their tracks.</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://github.com/lastnameswayne/fullstackcrudapp"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Crud-App &rarr;</h3>
+            <p>App which isn't done but GraphQL CRUD Auth etc.</p>
+          </a>
+{//Remember:   Lightweight Twitter Bot using Python and 
+//AWS-Lambda to execute a tweet which tracks the Covid-19 Vaccine Progress daily. 
+//Check it out on GitHub and Twitter:
+}
+          <a
+            href="/blog"
+            className={styles.card}
+          >
+            <h3>Articles &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              I like to write web-dev articles on GraphQL.
             </p>
           </a>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
   )
 }
