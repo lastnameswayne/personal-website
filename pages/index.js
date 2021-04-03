@@ -10,7 +10,6 @@ export default function Home() {
           href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/waving-hand_1f44b.png"
         />
       </Head>
-
       <main className={styles.main}>
         <h1 className={styles.title}>Tiarnan Swayne</h1>
 
@@ -50,18 +49,21 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/lastnameswayne/fullstackcrudapp"
+            href="https://github.com/lastnameswayne/foodfinder"
             className={styles.card}
           >
-            <h3>Crud-App &rarr;</h3>
-            <p>App which isn't done but GraphQL CRUD Auth etc.</p>
+            <h3>FoodFinder &rarr;</h3>
+            <p>
+              A webapp combating foodwaste by letting people share their excess
+              ingredients and meals.
+            </p>
           </a>
           {
             //Remember:   Lightweight Twitter Bot using Python and
             //AWS-Lambda to execute a tweet which tracks the Covid-19 Vaccine Progress daily.
             //Check it out on GitHub and Twitter:
           }
-          <a href="/blog" className={styles.card}>
+          <a href="https://dev.to/lastnameswayne" className={styles.card}>
             <h3>Articles &rarr;</h3>
             <p>I like to write web-dev articles on GraphQL.</p>
           </a>
