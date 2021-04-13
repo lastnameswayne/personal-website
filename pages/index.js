@@ -65,7 +65,10 @@ export default function Home() {
           }
           <a href="https://dev.to/lastnameswayne" className={styles.card}>
             <h3>Articles &rarr;</h3>
-            <p>I like to write web-dev articles on GraphQL.</p>
+            <p>
+              I like to write web-dev articles on GraphQL and other web-dev
+              related topics.{" "}
+            </p>
           </a>
         </div>
       </main>
