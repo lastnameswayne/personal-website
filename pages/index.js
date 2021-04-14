@@ -19,7 +19,11 @@ export default function Home() {
         </p>
         <p className={styles.description}>🏀 I love basketball too</p>
         <p className={styles.description}>
-          📧 Contact: by <span>swaynedev@gmail.com</span> or{" "}
+          📧 Contact: by{" "}
+          <a href="mailto: swaynedev@gmail.com">
+            <span>swaynedev@gmail.com</span>
+          </a>{" "}
+          or{" "}
           <a href="https://twitter.com/lastnameswayne">
             <span>@lastnameswayne</span>
           </a>
