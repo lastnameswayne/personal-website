@@ -28,6 +28,12 @@ export default function Home() {
             <span>@lastnameswayne</span>
           </a>
         </p>
+        <p className={styles.description}>
+          Add me on{""}{" "}
+          <a href="https://www.linkedin.com/in/tiarnanswayne/">
+            <span>LinkedIn</span>
+          </a>
+        </p>
 
         <div className={styles.grid}>
           <a
